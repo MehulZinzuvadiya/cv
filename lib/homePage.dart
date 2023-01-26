@@ -325,6 +325,29 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
+          Divider(
+            thickness: 2,
+          ),
+          Container(
+            height: 40,
+            width: double.infinity,
+            // color: Colors.black12,
+            child: Padding(
+              padding: const EdgeInsets.all(10),
+              child: Row(
+                children: [
+                  Icon(Icons.question_mark),
+                  SizedBox(
+                    width: 20,
+                  ),
+                  Text(
+                    "About us",
+                    style: TextStyle(color: Colors.black),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     ));
